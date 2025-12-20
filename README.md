@@ -13,3 +13,14 @@
 
 ## 🚀 実行方法
 cargo run
+
+---
+- ## 🌐 Web版（Yew + Trunk）
+Rust + WebAssembly で動く簡単なUI（カウンター例）を追加しました。
+
+## Trunkセットアップ
+- rustup target add wasm32-unknown-unknown
+- cargo install trunk
+
+### 起動
+- trunk serve --open --port 8081
