@@ -1,3 +1,0 @@
-C:/Rust-study/compare-lang/cpp/build/CMakeFiles/compare_cpp.dir
-C:/Rust-study/compare-lang/cpp/build/CMakeFiles/ALL_BUILD.dir
-C:/Rust-study/compare-lang/cpp/build/CMakeFiles/ZERO_CHECK.dir
