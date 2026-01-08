@@ -1,26 +1,34 @@
-## ただRustのコードを書いて学んでいるだけのリポジトリです📖
+# Rust-study 📚
 
-## ✍️ 学習内容
-
-- 変数と型（`variables.rs`）
-- 所有権（`ownership.rs`）
-- 借用と参照（`borrow.rs`）
-- スライス（`slice.rs`）
-- `Vec.rs` / `HashMap.rs`
-- 標準出力・デバッグ用コード
-
-※ 各ファイルは **1テーマ = 1ファイル** で書いています。
-
-## 🚀 実行方法
-cargo run
+Rust を中心に学習しつつ、**同じテーマを C++ / Objective-C でも実装して比較**するためのリポジトリです。  
+「1テーマ = 1ファイル」形式で、あとから見返して復習しやすい形にしています。
 
 ---
-- ## 🌐 Web版（Yew + Trunk）
-Rust + WebAssembly で動く簡単なUI（カウンター例）を追加しました。
 
-## Trunkセットアップ
-- rustup target add wasm32-unknown-unknown
-- cargo install trunk
+## ディレクトリ構成
 
-### 起動
-- trunk serve --open --port 8081
+- `compare-lang/rust/`：Rust 実装（Cargo）
+- `compare-lang/cpp/`：C++ 実装（CMake）
+- `compare-lang/objc/`：Objective-C 実装（予定）
+- `compare-lang/*/src/basics/`：各テーマのサンプル置き場
+
+> 各言語の詳細は、それぞれのフォルダ内 `README.md` に書いてあります。
+
+---
+
+## 学習テーマ（Rust / C++ / Objective-C 共通で増やしていく予定）
+
+- 変数と型（variables）
+- 所有権/借用の考え方（ownership / borrow）
+- スライス（slice）
+- Vec / HashMap（vecs / hashmaps）
+- 標準出力・デバッグ（print） など
+
+---
+
+## 実行方法
+
+### Rust（Cargo）
+```bash
+cd compare-lang/rust
+cargo run
