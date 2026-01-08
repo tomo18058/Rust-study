@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Rust-study/compare-lang/cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
