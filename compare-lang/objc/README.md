@@ -26,7 +26,22 @@
 
 ## 🚀 実行方法（Windows + VSCode + WSL）
 
-### 1) 依存（初回だけ）
-```bash
+### 依存（初回だけ）
 sudo apt update
 sudo apt install -y clang gcc gobjc gnustep-make libgnustep-base-dev gnustep-devel libobjc-12-dev
+
+### ビルド
+- cd compare-lang/objc
+- chmod +x build.sh
+- ./build.sh
+
+
+### トピック一覧を表示
+- ./build/compare_objc --list
+
+### 実行
+- ./build/compare_objc basics
+- ./build/compare_objc print
+- ./build/compare_objc variables
+- ./build/compare_objc ownsership
+- ./build/compare_objc hashmaps
