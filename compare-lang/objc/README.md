@@ -1,4 +1,4 @@
-#ただObjective-Cのコードを書いて学んでいるだけのリポジトリです📖
+# ただObjective-Cのコードを書いて学んでいるだけのリポジトリです📖
 
 - `src/main.m`：各テーマの実行入口（呼び出し元）
 - `src/basics/*.m`：テーマ別の実装
@@ -43,4 +43,5 @@ sudo apt install -y clang gcc gobjc gnustep-make libgnustep-base-dev gnustep-dev
 - ./build/compare_objc variables
 - ./build/compare_objc ownsership
 - ./build/compare_objc hashmaps
+
 
